@@ -10,6 +10,9 @@ var app = new Vue({
     messaggio : 'Ieri sera è uscito il trailer di Godzilla VS Kong e lo avrò già visto 30 volte...',
     submessaggio: 'no, seriamente, aiuto...',
     src: 'https://images.everyeye.it/img-articoli/il-trailer-godzilla-vs-kong-scontro-avvicina-speciale-v11-51721-1280x16.jpg',
-    film: 'godzilla vs kong'
+    film: 'godzilla vs kong',
+    carattere: 'font',
+    dimensioni: 'grandezza'
   }
+
 })

@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Send help PLS</title>
 </head>
 <body>
 
   <div id="root">
-    <h1>{{titolo}}</h1>
+    <h1 :class="carattere">{{titolo}}</h1>
     <h2>{{messaggio}}</h2>
     <p><small>{{submessaggio}}</small></p>
-    <img :src="src" :alt="film">
+    <img :src="src" :alt="film" :class="dimensioni">
   </div>
 
   <script src="js/script.js" charset="utf-8"></script>

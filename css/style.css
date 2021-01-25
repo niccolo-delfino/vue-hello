@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  text-align: center;
+  margin: 25px 0;
+}
+
+.font{
+  padding-bottom: 20px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.grandezza{
+  width: 600px;
+  display: block;
+  margin: 25px auto;
+}
